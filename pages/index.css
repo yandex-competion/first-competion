@@ -1,3 +1,23 @@
 @import url(../vendor/normalize.css);
 
 @import url(../blocks/page/page.css);
+
+
+@import url(../blocks/places/places.css);
+
+@import url(../blocks/place/place.css);
+@import url(../blocks/place/__image/place__image.css);
+@import url(../blocks/place/__title/place__title.css);
+@import url(../blocks/place/__text/place__text.css);
+@import url(../blocks/place/__paragraph/place__paragraph.css);
+
+@import url(../blocks/quotes/quotes.css);
+@import url(../blocks/quotes/__people/quotes__people.css);
+@import url(../blocks/quotes/__title/quotes__title.css);
+
+@import url(../blocks/quote/quote.css);
+@import url(../blocks/quote/__title/quote__title.css);
+@import url(../blocks/quote/__paragraph/quote__paragraph.css);
+
+@import url(../blocks/footer/footer.css);
+@import url(../blocks/footer/__copyright/footer__copyright.css);
