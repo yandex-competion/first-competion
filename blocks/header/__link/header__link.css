@@ -9,6 +9,5 @@
 .header__link:hover {
     opacity: 0.8;
     text-shadow: 3px 3px 10px black;
-    transition: opacity 0.8s ease-in-out;
-    transition: text-shadow 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
 }
