@@ -1,0 +1,11 @@
+.intro__heading {
+    color: rgb(254,202,163);
+    text-transform: uppercase;
+    font-family: sans-serif;
+    line-height: 12px;
+    font-weight: normal;
+    font-size: 12px;
+    letter-spacing: 1px;
+    margin: 0;
+    padding: 0;
+}

@@ -1,0 +1,7 @@
+.header__links {
+    
+    margin-right: 42px;
+}
+.header__links:last-of-type {
+    margin-right: 0;
+    }

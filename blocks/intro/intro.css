@@ -1,0 +1,8 @@
+.intro {
+    max-width: 1440px;
+    display: flex;
+    margin: 0;
+    padding: 15px 77px 75px;
+    align-items: center;
+    justify-content: start;
+}

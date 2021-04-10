@@ -1,17 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="pages/index.css" />
-  </head>
-  <body class="page">
-    <header></header>
+    <link rel="stylesheet" type="text/css" href="pages/index.css">
+</head>
+<body class="page">
+    <header class="header">
+        <nav>
+            <ul class="header__menu">
+                <li class="header__links"><a href="#" class="header__link">Мечты</a></Øli>
+                <li class="header__links"><a href="#" class="header__link">Ожидания</a></li>
+                <li class="header__links"><a href="#" class="header__link">Реальность</a></li>
+            </ul>
+        </nav>
+        <button class="header__claim"><a href="#" class="header__link">Пожаловаться</a></button>
+    </header>
     <main>
-      <!--Блок places-->
-      <section class="places">
+        <section class="intro">
+            <div class="intro__text">
+                <span class="intro__heading">Куда я поеду</span>
+                <h1 class="intro__title">Куда я поеду сразу, как можно будет куда-то поехать</h1>
+            </div>
+            <img src="./images/intro-image.jpeg" alt="Небо" class="intro__photo">
+        </section>
+        <section class="places">
         <div class="place">
           <img class="place__image" src="/first-competion/images/places-forest.jpeg" alt="Лес"/>
           <div class="place__text">
@@ -85,5 +100,5 @@
     <footer class="footer">
       <p class="footer__copyright">&copy;2021</p>
     </footer>
-  </body>
+</body>
 </html>
