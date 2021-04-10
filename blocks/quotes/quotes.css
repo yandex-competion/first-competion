@@ -1,3 +1,7 @@
 .quotes {
-    padding: 137px 80px 163px;
+    padding: 137px 80px 143px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, auto);
+    column-gap: 55px;
 }

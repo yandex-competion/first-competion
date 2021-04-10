@@ -1,6 +1,8 @@
 .place__text {
-    padding: 0 80px;
-    display: flex;
-    flex-direction: column;
+    max-height: 600px;
+    height: calc(100% - 160px);
+    padding: 80px;
+    display: grid;
+    grid-template-rows: 1fr 2fr;
     
 }

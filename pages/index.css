@@ -10,6 +10,7 @@
 @import url(../blocks/place/__title/place__title.css);
 @import url(../blocks/place/__text/place__text.css);
 @import url(../blocks/place/__paragraph/place__paragraph.css);
+@import url(../blocks/place/__image/_position-reverse/place__image_position-reverse.css);
 
 @import url(../blocks/quotes/quotes.css);
 @import url(../blocks/quotes/__people/quotes__people.css);
@@ -21,3 +22,7 @@
 
 @import url(../blocks/footer/footer.css);
 @import url(../blocks/footer/__copyright/footer__copyright.css);
+
+body {
+    font-family: sans-serif;
+}
